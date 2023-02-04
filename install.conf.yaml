@@ -11,5 +11,8 @@
 - create:
     - ~/Work
 
-# - shell:
+- shell:
 # - [git submodule update --init --recursive, Installing submodules]
+  - 
+    command: echo "hey you guys"
+    stdout: true
